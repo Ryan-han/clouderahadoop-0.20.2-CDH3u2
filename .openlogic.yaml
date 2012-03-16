@@ -1,0 +1,18 @@
+--- 
+name: Clouderahadoop 0.20.2-CDH3u2 Source
+platform_id: all
+platform_version: all
+distribution_file_uuid_string: openlogic-clouderahadoop-0.20.2-CDH3u2-all-src-1
+platform_vendor: all
+description: Clouderahadoop 0.20.2-CDH3u2 Source
+platform_arch: all
+distribution_file_uuid: 2341f3f90b7c76d9bf99b4b236a26ce35efb69fc0a1091ea52ed79a5f1b95f50
+distribution_version: 1
+distribution_flavor: ""
+distribution_raw_file: 0.20.2/hadoop-0.20.2-cdh3u2.tar.gz
+notify: "yes"
+package_version: 0.20.2-CDH3u2
+package_id: clouderahadoop
+release_date: "2011-12-29"
+distribution_notes: ""
+distribution_type: src

@@ -1,0 +1,24 @@
+2012-03-16 14:08:54,087 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = Han-ui-MacBook-Air.local/192.168.30.87
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2-cdh3u2
+STARTUP_MSG:   build = file:///Users/ryan/Study/clouderahadoop-0.20.2-CDH3u2-src -r Unknown; compiled by 'ryan' on 2012??? 3??? 16??¨ù ?¢¬??????¨ù 13??? 47?¢Ò? 15?¢¥? KST
+************************************************************/
+2012-03-16 14:08:54,811 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-03-16 14:08:54,869 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-03-16 14:08:54,891 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
+2012-03-16 14:08:54,895 INFO org.apache.hadoop.mapred.TaskTracker: Starting tasktracker with owner as ryan
+2012-03-16 14:08:54,899 WARN org.apache.hadoop.mapred.TaskTracker: Task Tracker local can not create directory: /data/IdeaProjects/hadoop/hadoop-0.20-ha/metadata/mapred/local
+2012-03-16 14:08:54,899 ERROR org.apache.hadoop.mapred.TaskTracker: Can not start task tracker because org.apache.hadoop.util.DiskChecker$DiskErrorException: all local directories are not writable
+	at org.apache.hadoop.mapred.TaskTracker.checkLocalDirs(TaskTracker.java:3586)
+	at org.apache.hadoop.mapred.TaskTracker.initializeDirectories(TaskTracker.java:666)
+	at org.apache.hadoop.mapred.TaskTracker.initialize(TaskTracker.java:741)
+	at org.apache.hadoop.mapred.TaskTracker.<init>(TaskTracker.java:1440)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:3612)
+
+2012-03-16 14:08:54,900 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at Han-ui-MacBook-Air.local/192.168.30.87
+************************************************************/

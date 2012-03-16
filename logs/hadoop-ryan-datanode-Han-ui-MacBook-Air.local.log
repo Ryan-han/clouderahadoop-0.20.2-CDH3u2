@@ -1,0 +1,44 @@
+2012-03-16 14:08:49,397 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = Han-ui-MacBook-Air.local/192.168.30.87
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2-cdh3u2
+STARTUP_MSG:   build = file:///Users/ryan/Study/clouderahadoop-0.20.2-CDH3u2-src -r Unknown; compiled by 'ryan' on 2012??? 3??? 16??¨ù ?¢¬??????¨ù 13??? 47?¢Ò? 15?¢¥? KST
+************************************************************/
+2012-03-16 14:08:49,849 INFO org.apache.hadoop.security.UserGroupInformation: JAAS Configuration already set up for Hadoop, not re-installing.
+2012-03-16 14:08:50,104 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2012-03-16 14:08:50,124 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened info server at 50010
+2012-03-16 14:08:50,127 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2012-03-16 14:08:50,204 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-03-16 14:08:50,310 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-03-16 14:08:50,317 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2012-03-16 14:08:50,317 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2012-03-16 14:08:50,317 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2012-03-16 14:08:50,317 INFO org.mortbay.log: jetty-6.1.26.cloudera.1
+2012-03-16 14:08:50,718 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2012-03-16 14:08:50,722 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=DataNode, sessionId=null
+2012-03-16 14:08:50,944 INFO org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 50020
+2012-03-16 14:08:50,945 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=DataNode, port=50020
+2012-03-16 14:08:50,946 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=DataNode, port=50020
+2012-03-16 14:08:50,948 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(192.168.30.87:50010, storageID=DS-653908256-192.168.100.58-50010-1331630507696, infoPort=50075, ipcPort=50020)
+2012-03-16 14:08:50,960 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2012-03-16 14:08:50,964 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(127.0.0.1:50010, storageID=DS-653908256-192.168.100.58-50010-1331630507696, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/Users/ryan/Study/data/current'}
+2012-03-16 14:08:50,964 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-03-16 14:08:50,965 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2012-03-16 14:08:50,966 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2012-03-16 14:08:50,966 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2012-03-16 14:08:50,966 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2012-03-16 14:08:50,966 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2012-03-16 14:08:50,973 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 1 blocks got processed in 5 msecs
+2012-03-16 14:08:50,974 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner.
+2012-03-16 14:08:51,048 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7916754704666755690_1001
+2012-03-16 14:08:54,123 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-1067400028893854786_1002 src: /127.0.0.1:60574 dest: /127.0.0.1:50010
+2012-03-16 14:08:54,145 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:60574, dest: /127.0.0.1:50010, bytes: 4, op: HDFS_WRITE, cliID: DFSClient_-2046642051, offset: 0, srvID: DS-653908256-192.168.100.58-50010-1331630507696, blockid: blk_-1067400028893854786_1002, duration: 12499000
+2012-03-16 14:08:54,147 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-1067400028893854786_1002 terminating
+2012-03-16 14:08:56,973 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-7916754704666755690_1001 file /Users/ryan/Study/data/current/blk_-7916754704666755690 for deletion
+2012-03-16 14:08:56,975 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-7916754704666755690_1001 at file /Users/ryan/Study/data/current/blk_-7916754704666755690
+2012-03-16 14:13:17,316 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-1067400028893854786_1002
+2012-03-16 14:48:09,759 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 1 blocks got processed in 3 msecs
+2012-03-16 15:48:10,976 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 1 blocks got processed in 2 msecs
+2012-03-16 16:48:09,209 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 1 blocks got processed in 23 msecs

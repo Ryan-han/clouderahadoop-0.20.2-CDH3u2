@@ -1,0 +1,14 @@
+2012-03-16 14:08:51,094 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting SecondaryNameNode
+STARTUP_MSG:   host = Han-ui-MacBook-Air.local/192.168.30.87
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2-cdh3u2
+STARTUP_MSG:   build = file:///Users/ryan/Study/clouderahadoop-0.20.2-CDH3u2-src -r Unknown; compiled by 'ryan' on 2012??? 3??? 16??¨ù ?¢¬??????¨ù 13??? 47?¢Ò? 15?¢¥? KST
+************************************************************/
+2012-03-16 14:08:51,406 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=SecondaryNameNode, sessionId=null
+2012-03-16 14:08:51,576 INFO org.apache.hadoop.hdfs.server.common.Storage: Storage directory /data/IdeaProjects/hadoop/hadoop-0.20-ha/metadata/dfs/namesecondary does not exist.
+2012-03-16 14:08:51,581 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down SecondaryNameNode at Han-ui-MacBook-Air.local/192.168.30.87
+************************************************************/

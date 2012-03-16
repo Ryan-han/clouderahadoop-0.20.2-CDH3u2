@@ -1,0 +1,50 @@
+2012-03-16 14:08:52,511 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = Han-ui-MacBook-Air.local/192.168.30.87
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2-cdh3u2
+STARTUP_MSG:   build = file:///Users/ryan/Study/clouderahadoop-0.20.2-CDH3u2-src -r Unknown; compiled by 'ryan' on 2012??? 3??? 16??¨ù ?¢¬??????¨ù 13??? 47?¢Ò? 15?¢¥? KST
+************************************************************/
+2012-03-16 14:08:52,801 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2012-03-16 14:08:52,803 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Starting expired delegation token remover thread, tokenRemoverScanInterval=60 min(s)
+2012-03-16 14:08:52,803 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2012-03-16 14:08:52,803 INFO org.apache.hadoop.mapred.JobTracker: Scheduler configured with (memSizeForMapSlotOnJT, memSizeForReduceSlotOnJT, limitMaxMemForMapTasks, limitMaxMemForReduceTasks) (-1, -1, -1, -1)
+2012-03-16 14:08:52,805 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2012-03-16 14:08:52,878 INFO org.apache.hadoop.mapred.JobTracker: Starting jobtracker with owner as ryan
+2012-03-16 14:08:52,920 INFO org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 54311
+2012-03-16 14:08:52,924 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=JobTracker, port=54311
+2012-03-16 14:08:52,929 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=JobTracker, port=54311
+2012-03-16 14:08:53,015 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-03-16 14:08:53,097 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-03-16 14:08:53,121 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2012-03-16 14:08:53,143 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50030
+2012-03-16 14:08:53,146 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50030 webServer.getConnectors()[0].getLocalPort() returned 50030
+2012-03-16 14:08:53,146 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50030
+2012-03-16 14:08:53,147 INFO org.mortbay.log: jetty-6.1.26.cloudera.1
+2012-03-16 14:08:53,639 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50030
+2012-03-16 14:08:53,641 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2012-03-16 14:08:53,643 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 54311
+2012-03-16 14:08:53,643 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2012-03-16 14:08:53,659 WARN org.apache.hadoop.util.MRAsyncDiskService: Cannot create toBeDeleted in /data/IdeaProjects/hadoop/hadoop-0.20-ha/metadata/mapred/local. Ignored.
+2012-03-16 14:08:53,947 INFO org.apache.hadoop.mapred.JobTracker: Cleaning up the system directory
+2012-03-16 14:08:54,004 INFO org.apache.hadoop.mapred.JobHistory: Creating DONE folder at file:/Users/ryan/Study/clouderahadoop-0.20.2-CDH3u2-src/logs/history/done
+2012-03-16 14:08:54,024 INFO org.apache.hadoop.mapred.CompletedJobStatusStore: Completed job store is inactive
+2012-03-16 14:08:54,156 INFO org.apache.hadoop.mapred.JobTracker: Refreshing hosts information
+2012-03-16 14:08:54,209 INFO org.apache.hadoop.util.HostsFileReader: Setting the includes file to 
+2012-03-16 14:08:54,209 INFO org.apache.hadoop.util.HostsFileReader: Setting the excludes file to 
+2012-03-16 14:08:54,209 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2012-03-16 14:08:54,209 INFO org.apache.hadoop.mapred.JobTracker: Decommissioning 0 nodes
+2012-03-16 14:08:54,254 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-03-16 14:08:54,255 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 54311: starting
+2012-03-16 14:08:54,256 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 54311: starting
+2012-03-16 14:08:54,257 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 54311: starting
+2012-03-16 14:08:54,257 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 54311: starting
+2012-03-16 14:08:54,257 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 54311: starting
+2012-03-16 14:08:54,258 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 54311: starting
+2012-03-16 14:08:54,273 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 54311: starting
+2012-03-16 14:08:54,275 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 54311: starting
+2012-03-16 14:08:54,275 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 54311: starting
+2012-03-16 14:08:54,275 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 54311: starting
+2012-03-16 14:08:54,276 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 54311: starting
+2012-03-16 14:08:54,276 INFO org.apache.hadoop.mapred.JobTracker: Starting RUNNING

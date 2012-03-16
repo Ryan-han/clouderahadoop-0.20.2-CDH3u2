@@ -1,0 +1,6 @@
+2012-03-16 14:08:51.332 java[9493:1c03] Unable to load realm info from SCDynamicStore
+Exception in thread "main" org.apache.hadoop.hdfs.server.common.InconsistentFSStateException: Directory /data/IdeaProjects/hadoop/hadoop-0.20-ha/metadata/dfs/namesecondary is in an inconsistent state: checkpoint directory does not exist or is not accessible.
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode$CheckpointStorage.recoverCreate(SecondaryNameNode.java:677)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.initialize(SecondaryNameNode.java:196)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.<init>(SecondaryNameNode.java:150)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.main(SecondaryNameNode.java:624)

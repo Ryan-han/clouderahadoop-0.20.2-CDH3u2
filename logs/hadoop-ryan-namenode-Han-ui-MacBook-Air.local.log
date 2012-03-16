@@ -1,0 +1,70 @@
+2012-03-16 14:08:47,513 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = Han-ui-MacBook-Air.local/192.168.30.87
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2-cdh3u2
+STARTUP_MSG:   build = file:///Users/ryan/Study/clouderahadoop-0.20.2-CDH3u2-src -r Unknown; compiled by 'ryan' on 2012??? 3??? 16??¨ù ?¢¬??????¨ù 13??? 47?¢Ò? 15?¢¥? KST
+************************************************************/
+2012-03-16 14:08:47,737 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2012-03-16 14:08:47,741 INFO org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2012-03-16 14:08:47,776 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2012-03-16 14:08:47,777 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 19.83375 MB
+2012-03-16 14:08:47,777 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2012-03-16 14:08:47,777 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2012-03-16 14:08:47,841 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=ryan
+2012-03-16 14:08:47,841 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2012-03-16 14:08:47,841 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2012-03-16 14:08:47,847 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=1000
+2012-03-16 14:08:47,847 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2012-03-16 14:08:48,110 INFO org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics: Initializing FSNamesystemMetrics using context object:org.apache.hadoop.metrics.spi.NullContext
+2012-03-16 14:08:48,171 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 1
+2012-03-16 14:08:48,178 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2012-03-16 14:08:48,178 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 110 loaded in 0 seconds.
+2012-03-16 14:08:48,203 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Invalid opcode, reached end of edit log Number of transactions found 12
+2012-03-16 14:08:48,203 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /Users/ryan/Study/name/current/edits of size 1048580 edits # 12 loaded in 0 seconds.
+2012-03-16 14:08:48,211 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 981 saved in 0 seconds.
+2012-03-16 14:08:48,326 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 981 saved in 0 seconds.
+2012-03-16 14:08:48,341 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 511 msecs
+2012-03-16 14:08:48,368 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 1
+2012-03-16 14:08:48,368 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2012-03-16 14:08:48,368 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 1
+2012-03-16 14:08:48,368 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2012-03-16 14:08:48,368 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 0 secs.
+2012-03-16 14:08:48,369 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+2012-03-16 14:08:48,369 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 1 blocks
+2012-03-16 14:08:48,381 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2012-03-16 14:08:48,428 INFO org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 54310
+2012-03-16 14:08:48,431 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=54310
+2012-03-16 14:08:48,438 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=NameNode, port=54310
+2012-03-16 14:08:48,442 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: localhost/127.0.0.1:54310
+2012-03-16 14:08:48,546 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-03-16 14:08:48,636 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-03-16 14:08:48,653 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2012-03-16 14:08:48,656 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2012-03-16 14:08:48,656 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2012-03-16 14:08:48,656 INFO org.mortbay.log: jetty-6.1.26.cloudera.1
+2012-03-16 14:08:49,140 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50070
+2012-03-16 14:08:49,140 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: 0.0.0.0:50070
+2012-03-16 14:08:49,141 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-03-16 14:08:49,141 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 54310: starting
+2012-03-16 14:08:49,142 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 54310: starting
+2012-03-16 14:08:49,142 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 54310: starting
+2012-03-16 14:08:49,142 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 54310: starting
+2012-03-16 14:08:49,143 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 54310: starting
+2012-03-16 14:08:49,143 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 54310: starting
+2012-03-16 14:08:49,143 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 54310: starting
+2012-03-16 14:08:49,143 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 54310: starting
+2012-03-16 14:08:49,143 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 54310: starting
+2012-03-16 14:08:49,143 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 54310: starting
+2012-03-16 14:08:49,144 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 54310: starting
+2012-03-16 14:08:50,955 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 127.0.0.1:50010 storage DS-653908256-192.168.100.58-50010-1331630507696
+2012-03-16 14:08:50,959 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:50010
+2012-03-16 14:08:50,963 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blocksBeingWrittenReport: from 127.0.0.1:50010 0 blocks
+2012-03-16 14:08:50,971 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-7916754704666755690_1001 size 4
+2012-03-16 14:08:53,958 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-7916754704666755690 is added to invalidSet of 127.0.0.1:50010
+2012-03-16 14:08:54,066 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /data/IdeaProjects/hadoop/hadoop-0.20-ha/metadata/mapred/system/jobtracker.info. blk_-1067400028893854786_1002
+2012-03-16 14:08:54,147 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-1067400028893854786_1002 size 4
+2012-03-16 14:08:54,152 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /data/IdeaProjects/hadoop/hadoop-0.20-ha/metadata/mapred/system/jobtracker.info from client DFSClient_-2046642051
+2012-03-16 14:08:54,152 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /data/IdeaProjects/hadoop/hadoop-0.20-ha/metadata/mapred/system/jobtracker.info is closed by DFSClient_-2046642051
+2012-03-16 14:08:54,384 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 127.0.0.1:50010 to delete  blk_-7916754704666755690_1001
